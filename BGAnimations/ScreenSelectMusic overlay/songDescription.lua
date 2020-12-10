@@ -61,7 +61,7 @@ af[#af+1] = Def.ActorFrame{
 	-- ----------------------------------------
 	-- Artist Label
 	LoadFont("Common Normal")..{
-		Text=THEME:GetString("SongDescription", GAMESTATE:IsCourseMode() and "NumSongs" or "Artist"),
+		Text=THEME:GetString("SongDescription", GAMESTATE:IsCourseMode() and "NumSongs" or "Artist"):upper(),
 		InitCommand=function(self) self:align(1,0):y(-11):maxwidth(44):diffuse(0.5,0.5,0.5,1) end,
 	},
 
@@ -82,7 +82,7 @@ af[#af+1] = Def.ActorFrame{
 	-- ----------------------------------------
 	-- BPM Label
 	LoadFont("Common Normal")..{
-		Text=THEME:GetString("SongDescription", "BPM"),
+		Text=THEME:GetString("SongDescription", "BPM"):upper(),
 		InitCommand=function(self)
 			self:align(1,0):y(10):diffuse(0.5,0.5,0.5,1)
 		end
@@ -152,7 +152,7 @@ af[#af+1] = Def.ActorFrame{
 	-- ----------------------------------------
 	-- Song Duration Label
 	LoadFont("Common Normal")..{
-		Text=THEME:GetString("SongDescription", "Length"),
+		Text=THEME:GetString("SongDescription", "Length"):upper(),
 		InitCommand=function(self)
 			self:align(1,0):diffuse(0.5,0.5,0.5,1)
 			self:x(_w-130):y(10)
