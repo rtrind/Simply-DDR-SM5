@@ -338,6 +338,7 @@ SetGameModePreferences = function()
 	-- and I don't want to deal with renaming relatively critical files from the theme.
 	-- Thus, scores from FA+ mode will continue to go into ECFA-Stats.xml.
 	prefix["FA+"] = "ECFA-"
+	prefix["DDR"] = "DDR-"
 	prefix["Casual"] = "Casual-"
 
 	if PROFILEMAN:GetStatsPrefix() ~= prefix[SL.Global.GameMode] then

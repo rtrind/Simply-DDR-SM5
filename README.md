@@ -14,7 +14,7 @@ This is a fork of the StepMania 5 theme form, Simply Love, that adds a game mode
 
 Note: Life mechanics in DDR mode have not been changed from Simply Love's ITG settings.
 
-![DDR mode select](https://i.imgur.com/u32ZOLV.png)
+![DDR mode select](https://i.imgur.com/Hud9FkV.png)
 ![DDR mode eval](https://i.imgur.com/ZXs5qSB.png)
 
 Additional judgment graphics by zenius-i-vanisher user bLOOdSAW/HURG: https://zenius-i-vanisher.com/v5.2/thread?threadid=8936&page=1
